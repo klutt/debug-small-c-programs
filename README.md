@@ -1,20 +1,20 @@
-How to debug small C programs
------------------------------
+# How to debug small C programs
 
 It's likely that you came here from Stackoverflow or a similar site because you asked for debugging help.
 
 This document is heavily inspired from the blog post "How to debug small programs" which is amazing, but this document only focuses on C. So if you want to learn how to debug your C programs, this is for you. However, most of it is applicable to other languages too.
 
 
-Types of error
---------------
+# Types of error
+
 If the code does not do what you want it to do, it's cause can be divided into these categories:
-# Compile time errors (The program cannot run)
+
+## Compile time errors (The program cannot run)
  - Syntax error - The code simply refuses to compile because you break the language rules.
  - Semantic error - Similar to, and could be considered a subset of syntax errors.
  - Linker error - The code compiles but does not link. Common reasons are forgotten includes or wrong path. Technically not during compilation. But it's a problem occuring during the build phase, and compiling is often used instead of building.
 
-# Run time errors (The program can be compiled and run)
+## Run time errors (The program can be compiled and run)
  - Logical error - The code compiles, links and runs, but yields wrong results. 
 
 It can be worth noted that this classification is not the only one. Different people prefer different classifications, and the one most preffered differ from language to language. Java folks prefer to have runtime error as a completely separate thing than logical errors, even though most (all) runtime errors is due to a logical error.
