@@ -137,17 +137,17 @@ And before posting a question on a forum, read the forum rules and make sure tha
 First, find out what kind of bug you have. Does it happen during runtime or compiletime? If compiletime, include the compiler (or linker) error. If you have a runtime error, include warnings, a sample output for a sample input and the expected output.
 
 Loop:
-  Make sure the code is well indented. This should be a no brainer.
+ -  Make sure the code is well indented. This should be a no brainer.
 
-  Create an MRE with the tools above.
+   - Create an MRE with the tools above.
 
-  Add asserts and printouts and remove input by hardcoding if possible
+  - Add asserts and printouts and remove input by hardcoding if possible
 
-  Refactor a bit if you know how to do it
+  - Refactor a bit if you know how to do it
 
-  Use pen and paper, debugger, your brain and a rubberduck to try to figure out what the problem is
+-   Use pen and paper, debugger, your brain and a rubberduck to try to figure out what the problem is
 
-  Search the web
+  - Search the web
 
 Loop the above. The order is not very important. Go back and forth among the steps. Continue until you have solved the problem or until you really have no clue about how to continue.
   
