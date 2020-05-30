@@ -1,4 +1,5 @@
 How to debug small C programs
+-----------------------------
 
 It's likely that you came here from Stackoverflow or a similar site because you asked for debugging help.
 
