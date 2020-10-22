@@ -165,7 +165,7 @@ It can be a good thing to link to similar questions and explain why the answers 
 
 Read the question many times from an outsiders perspective. Would you understand the question if you did not know what you know about the question? This is actually tricky, so be careful to not miss anything vital.
 
-Create a title, and make it describe the problem well. Also, make sure that the title is not needed to understand the question. All the information the title contains should be found in the body.
+Create a title, and make it describe the problem well. Also, make sure that the title is not needed to understand the question. All the information the title contains should be found in the body. Usually it's better to write the title after you have written the body. 
 
 Double check the language. It's ok to not know the language perfectly, but do your best. Use spell checks and care for grammar, formatting, paragraphing and such. Make it as easy to read as possible. Adding a "sorry for my bad english" is ok if you're not a native speaker, dyslectic or whatever, but don't use it as an excuse to not improve the language to the best of your abilities.
 
