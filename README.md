@@ -2,7 +2,7 @@
 
 It's likely that you came here from Stackoverflow or a similar site because you asked for debugging help.
 
-This document is heavily inspired from the blog post "How to debug small programs" which is amazing, but this document only focuses on C. So if you want to learn how to debug your C programs, this is for you. However, most of it is applicable to other languages too.
+This document is heavily inspired from the blog post "How to debug small programs" by Eric Lippert which is amazing, but this document only focuses on C. So if you want to learn how to debug your C programs, this is for you. However, most of it is applicable to other languages too.
 
 
 ## Types of error
@@ -24,7 +24,7 @@ The most important thing is to know if your bug is during compile time or run ti
 
 ## UB
 
-Undefined behavior is a concept in C that can make debugging extremely hard. The phrase is used in the specification of the language. If you for instance divide by zero in Java, the Java standard says that an exception should be thrown, and if the exception is not catched, the program crashes. In C, the standard simply says that the behavior is undefined, which means that the compiler is allowed to do whatever it wants. Typical symptoms of undefined behavior is that the program works the way it should (yes, really), crashes instantly or related or unrelated variables gets overwritten. Furthermore, there's nothing that says that the program will run fine until it invokes undefined behavior. Nope, it can behave strange even before that. This often manifests itself by skipping print statements BEFORE the troublesome line. If a program invokes undefined behavior THE WHOLE PROGRAM is invalid. This leads to another very typical symptom of UB, and that is that the program behaves differently depending on optimization level or if you are debugging or not.
+Undefined behavior is a concept in C that can make debugging extremely hard. The phrase is used in the specification of the language. If you for instance divide by zero in Java, the Java standard says that an exception should be thrown, and if the exception is not cought, the program crashes. In C, the standard simply says that the behavior is undefined, which means that the compiler is allowed to do whatever it wants. Typical symptoms of undefined behavior is that the program works the way it should (yes, really), crashes instantly or related or unrelated variables gets overwritten. Furthermore, there's nothing that says that the program will run fine until it invokes undefined behavior. Nope, it can behave strange even before that. This often manifests itself by skipping print statements BEFORE the troublesome line. If a program invokes undefined behavior THE WHOLE PROGRAM is invalid. This leads to another very typical symptom of UB, and that is that the program behaves differently depending on optimization level or if you are debugging or not.
 
 UB is VERY common. It's not just some strange thing that happens when you do strange things. It's the source of the majority of beginner bugs, and also pretty common in professional code too. In order to properly debug C, this concept is crucial to understand.
 
