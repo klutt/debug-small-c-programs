@@ -29,7 +29,7 @@ Undefined behavior is a concept in C that can make debugging extremely hard. The
 UB is VERY common. It's not just some strange thing that happens when you do strange things. It's the source of the majority of beginner bugs, and also pretty common in professional code too. In order to properly debug C, this concept is crucial to understand.
 
 
-## Warnings
+## Warnings and other compiler options
 
 Warnings is the compilers way of telling you that you probably are doing something else than you want. Pay close attention to your warnings. First, always compile with at least -Wall and preferably -Wall -Wextra. Personally, I often use -Wall -Wextra -Werror -std=c11 -pedantic but the two first should catch most things. Not only gives the warnings good hints on what's wrong. They also gives you a searchable phrase. Yes, whatever warning you get, someone else have already asked a question with that warning. It's not guaranteed to help you, but very often it does, and if it doesn't you now have something to add to your question that makes it much better and easier to answer. And other people will find your question easier.
 
@@ -37,10 +37,11 @@ For a small program, like a typical school project, you should in general not ac
 
 However, make sure that you understand the warning and don't just do something that magically makes it go away. And I'm especially talking about casting. Shortly, casting is a way to say to the compiler "I know this is iffy, but trust me. I know what I'm doing so shut up with your warnings."
 
+There are a few compiler options that is not warnings that can be a great debugging help. You can use -fsanitize=address to make the program crash when it goed out of bounds. And if you're coding a multithreaded program, use -fsanitize=thread to check for race conditions. There are more options and warnings you can use. Read the manual to find out more.
 
 ## RTFM (Read the f*****g manual)
 
-The documentation for C functions is widely available, so there's no excuse for not reading about the functions you're using. Warnings will often tell you if you have given a function the wrong number of arguments or arguments of the wrong type. If that's the case rtfm and find out what arguments the function expects.
+Documentation for C functions is widely available, so there's no excuse for not reading about the functions you're using. Warnings will often tell you if you have given a function the wrong number of arguments or arguments of the wrong type. If that's the case rtfm and find out what arguments the function expects. Same goes for your compiler. Documentation for command line options is easy to find.
 
 
 ## Search
