@@ -16,8 +16,9 @@ If the code does not do what you want it to do, it's cause can be divided into t
 
 ### Run time errors (The program can be compiled and run)
  - Logical error - The code compiles, links and runs, but yields wrong results. 
+ - Run time error - Sometimes separate from logical errors. Usually refers to crashes, like division by zero, segmentation faults and such.
 
-It can be worth noted that this classification is not the only one. Different people prefer different classifications, and the one most preffered differ from language to language. Java folks prefer to have runtime error as a completely separate thing than logical errors, even though most (all) runtime errors is due to a logical error.
+It can be worth noted that this classification is not the only one. Different people prefer different classifications, and the one most preferred differ from language to language. Java folks prefer to have runtime error as a completely separate thing than logical errors, even though most (all) runtime errors is due to a logical error.
 
 The most important thing is to know if your bug is during compile time or run time.
 
