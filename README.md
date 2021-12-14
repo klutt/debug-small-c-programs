@@ -164,7 +164,7 @@ Then write the body. Explain the problem briefly but clearly. Links are accepted
 
 Try to avoid XY-problems. That basically means that you're assuming that X is a suitable way to do Y and ask about X without even mentioning Y. Often, this leads to people thinking the question is very strange, and it also often leads to suboptimal (with very big emphasis on sub) solutions for you.
 
-If it is a school assignment, please state so, but most importantly, post the question as it is. Nothing is so annoying as giving a perfect solution by only getting "oh, but I forgot to mention that the solutions may not use <whatever>. If your question have certain requirements, state them. And of course, that goes for all questions and not just school assignments. It's very common that the asker have misinterpreted the question.
+If it is a school assignment, please state so, but most importantly, post the question as it is. Nothing is so annoying as giving a perfect solution by only getting "oh, but I forgot to mention that the solutions may not use \<whatever\>. If your question have certain requirements, state them. And of course, that goes for all questions and not just school assignments. It's very common that the asker have misinterpreted the question.
 
 It can be a good thing to link to similar questions and explain why the answers there did not help and how you noticed that they don't.
 
@@ -173,5 +173,7 @@ Read the question many times from an outsiders perspective. Would you understand
 Create a title, and make it describe the problem well. Also, make sure that the title is not needed to understand the question. All the information the title contains should be found in the body. Usually it's better to write the title after you have written the body. 
 
 Double check the language. It's ok to not know the language perfectly, but do your best. Use spell checks and care for grammar, formatting, paragraphing and such. Make it as easy to read as possible. Adding a "sorry for my bad english" is ok if you're not a native speaker, dyslectic or whatever, but don't use it as an excuse to not improve the language to the best of your abilities.
+
+There are a few things that are hard to balance. You want the question to be as clear and self contained. You also want to show your own efforts and research. But you also want the question to be as short as possible. Avoid anything that's not relevant. 
 
 On many forums, you can use tags. Make sure you read about the tags so you know they are appropriate. Don't tag spam. If you're coding C, don't also tag C++, Java or Python unless the question also contain those other languages. I want to specifically think about not tagging both C and C++ unless you have a damn good reason. They are separate languages, and even if much C code is compilable as C++, you would never write proper C++ program that compiles as C. Not even for a simple Hello World program.
