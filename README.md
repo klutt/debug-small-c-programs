@@ -122,6 +122,9 @@ Writing tests are awesome. Not only does the process force you to really think a
 
 Very underrated tool. Execute the code in your head and write values for variabels at different states. If using pointers and arrays, draw boxes and arrows.
 
+## Rubber duck
+
+Get a rubber duck or an arbitrary object of the same intelligence as a rubber duck. Explain the problem and the code for the duck. It's quite likely that you will suddenly realize the problem. If that does not happen, explain again in more detail. Try to make the rubber duck understand. Since the rubber duck isn't very smart, your explanations need to be very basic. A friend, collegue or partner can be a splendid rubber duck.
 
 ## Use a debugger
 
