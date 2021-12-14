@@ -164,7 +164,7 @@ Then write the body. Explain the problem briefly but clearly. Links are accepted
 
 Try to avoid XY-problems. That basically means that you're assuming that X is a suitable way to do Y and ask about X without even mentioning Y. Often, this leads to people thinking the question is very strange, and it also often leads to suboptimal (with very big emphasis on sub) solutions for you.
 
-If it is a school assignment, please state so, but most importantly, post the question as it is. Nothing is so annoying as giving a perfect solution by only getting "oh, but I forgot to mention that the solutions may not use \<whatever\>. If your question have certain requirements, state them. And of course, that goes for all questions and not just school assignments. It's very common that the asker have misinterpreted the question.
+If it is a school assignment, please state so, but most importantly, post the question as it is. Nothing is so annoying as giving a perfect solution by only getting *"oh, but I forgot to mention that the solutions may not use \<whatever\>."* If your question have certain requirements, state them. And of course, that goes for all questions and not just school assignments. It's very common that the asker have misinterpreted the question.
 
 It can be a good thing to link to similar questions and explain why the answers there did not help and how you noticed that they don't.
 
